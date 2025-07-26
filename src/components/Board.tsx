@@ -38,7 +38,7 @@ export const Board: React.FC<BoardProps> = ({ cursorX, cursorY, situation, marke
           // Display chess piece with color
           const pieceChar = getPieceChar(chess)
           cellColor = chess.color === 1 ? 'red' : 'blue'
-          cellContent = chess.selected ? `[${pieceChar}]` : pieceChar
+          cellContent = pieceChar
         } else if (marker) {
           cellContent = '🟢'
           cellColor = 'green'
