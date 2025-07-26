@@ -1,0 +1,24 @@
+{
+  "name": "ink-chinese-chess",
+  "version": "1.0.0",
+  "description": "Chinese Chess game built with Ink for terminal",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "tsc --watch & node --watch dist/index.js"
+  },
+  "dependencies": {
+    "ink": "^4.4.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["chinese-chess", "ink", "terminal", "game"],
+  "author": "xu.fei@outlook.com",
+  "license": "MIT"
+}
